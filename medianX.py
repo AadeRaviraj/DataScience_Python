@@ -35,4 +35,15 @@ median = asc_order[length // 2]   # calculate odd series median value
 print(median)
 print(border)
 
- 
+
+arr2 = np.array([40, 30, 20 , 10 , 50,60])
+sorted_arr = np.sort(arr2)
+
+print(border)
+print("Calculate even series median ")
+
+even_series =  (sorted_arr[len(sorted_arr) // 2 -1 ] + sorted_arr[len(sorted_arr) // 2]) / 2
+
+print("Even Series median value : ", even_series)
+
+print(border)
