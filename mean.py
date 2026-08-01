@@ -14,5 +14,5 @@ mean_average = sum / length_arr
 print("Average of all values :", mean_average)
 
 
-sorted_Data = np.short(arr)
+sorted_Data = np.sort(arr)
 print(sorted_Data)
