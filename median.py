@@ -24,9 +24,16 @@ print(border)
 print("Calculate median value of odd sequence : ")
 print(border)
 
-median_value = np.median(arr)
-print("Median Value : ",median_value)
+# median_value = np.median(arr)  # using in-build method 
+# print("Median Value : ",median_value)
+# print(border)
+print(border)
+length  = len(arr)
+
+median = asc_order[length // 2]   # calculate odd series median value 
+print(median)
 print(border)
 
-
+print(border)
+print("Calculate even series median ")
 
