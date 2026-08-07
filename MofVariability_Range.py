@@ -6,7 +6,7 @@ import seaborn as sns
 
 
 
-border = " - " * 40
+border = "-" * 90
 
 # read Dataset by csv 
 
@@ -18,8 +18,15 @@ print(border)
 
 print("---------------  minimum value  ------------------")
 
+min_value = data["Age"].min()
+
+
 print(border)
 
 print('------------------- Maximum Value -------------------')
+
+max_value = data["Age"].max()
+
+print("Max Value ",max_value)
 
 print(border)
