@@ -17,20 +17,20 @@ print(data.head)
 # show all Fare name data 
 
 print(line)
-print("-----------------------------  Show all age column data -------------------------")
+print("-----------------------------  Show all fare column data -------------------------")
 print(data["Fare"])
 print(line)
 
 print(line)
 
-print("--------------------------- Average of age column -------------------------------")
-# print("Average using in-build method : ",data["Age"].mean()) 
+print("--------------------------- Median of age column -------------------------------")
+# print("Median using in-build method : ",data["Age"].mean()) 
 # using numpy 
 mn = np.median(data["Age"])
-print("Average using numpy ", mn )
+print("Median using numpy ", mn )
 print(line)
 
 print("----------------------------- data showing bu using seaborn --------------------- ")
-sns.histplot(x="Age", data=data, bins=[i for i in range(0, 81, 10)])
+sns.histplot(x="Fare", data=data, bins=[i for i in range(0, 81, 10)])
 plt.plot([mn for i in range(0 , 700)], [i for i in range(0 , 700)], c = "red")
 plt.show()
