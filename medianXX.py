@@ -14,11 +14,11 @@ data = pd.read_csv("Dataset\TitanicDataset.csv")
 
 print(data.head)
 
-# show all age name data 
+# show all Fare name data 
 
 print(line)
 print("-----------------------------  Show all age column data -------------------------")
-print(data["Age"])
+print(data["Fare"])
 print(line)
 
 print(line)
@@ -26,7 +26,7 @@ print(line)
 print("--------------------------- Average of age column -------------------------------")
 # print("Average using in-build method : ",data["Age"].mean()) 
 # using numpy 
-mn = np.mean(data["Age"])
+mn = np.median(data["Age"])
 print("Average using numpy ", mn )
 print(line)
 
