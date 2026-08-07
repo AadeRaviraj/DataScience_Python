@@ -18,7 +18,7 @@ print(data.head)
 
 print(line)
 print("-----------------------------  Show all fare column data -------------------------")
-print(data["Fare"].mode())
+print(data["Fare"].mode()[0])
 print(line)
 
 # print(line)
