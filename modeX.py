@@ -16,12 +16,14 @@ print(data.head)
 
 # show all Fare name data 
 
-print(line)
-print("-----------------------------  Show all fare column data -------------------------")
+print(line) 
 print(data["Fare"].mode()[0])
 print(line)
 
-# print(line)
+# show the value counts 
+print(line)
+print(data["Fare"].value_counts())
+print(line)
 
 # print("--------------------------- Median of age column -------------------------------")
 # # print("Median using in-build method : ",data["Age"].mean()) 
