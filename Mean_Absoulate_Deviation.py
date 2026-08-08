@@ -16,6 +16,10 @@ print(border)
 # Total of list
 total = sum(data)
 
+print("------------------------- Total of all list -------------------------")
+print("Sum of all list : ", total)
+
+print(border)
 # mean calculate 
 
 meanValue = total / n
