@@ -56,3 +56,13 @@ print("------------------------------------- MAD -------------------------------
 print("MAD :  ", mad)
 
 print(border)
+
+print("Data:", data)
+print("Number of values:", n)
+print("Total:", total)
+print("Mean:", meanValue)
+print("Deviation 1:", d1)
+print("Deviation 2:", d2)
+print("Deviation 3:", d3)
+print("Total Deviation:", total_deviation)
+print("Mean Absolute Deviation:", mad)
