@@ -9,6 +9,8 @@ print(border)
 # Number of values
 n = len(data)
 
+print("----------------- Length or list ---------------------")
+print("Length of list : ", n)
 print(border)
 
 # Total of list
