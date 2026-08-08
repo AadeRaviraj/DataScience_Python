@@ -27,3 +27,17 @@ meanValue = total / n
 print("----------------------- Mean of all list value -------------------------")
 print("Mean Value : ", meanValue)
 print(border)
+
+#  Absolute deviations
+d1 = abs(data[0] - meanValue)
+d2 = abs(data[1] - meanValue)
+d3 = abs(data[2] - meanValue)
+
+print("--------------------- Absolute deviation ----------------------------")
+print(f'{data[0]} - {meanValue} = {d1}')
+print(f'{data[1]} - {meanValue} = {d2}')
+print(f'{data[2]} - {meanValue} = {d3}')
+
+print(border)
+
+
