@@ -41,3 +41,18 @@ print(f'{data[2]} - {meanValue} = {d3}')
 print(border)
 
 
+#  Total deviation
+total_deviation = d1 + d2 + d3
+
+print("------------------------------------ Total Deviation -----------------------------------")
+
+print("Total Deviation : ", total_deviation)
+
+print(border)
+
+#  MAD
+mad = total_deviation / n
+print("------------------------------------- MAD -------------------------------------------")
+print("MAD :  ", mad)
+
+print(border)
