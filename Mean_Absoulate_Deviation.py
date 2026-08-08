@@ -24,3 +24,6 @@ print(border)
 
 meanValue = total / n
 
+print("----------------------- Mean of all list value -------------------------")
+print("Mean Value : ", meanValue)
+print(border)
