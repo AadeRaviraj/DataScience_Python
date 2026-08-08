@@ -33,6 +33,6 @@ print(border)
 
 print("-------------------- Range Value -------------------")
 
-range_value = min_value - min_value
+range_value = max_value - min_value
 
 print(range_value)
